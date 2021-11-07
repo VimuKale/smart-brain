@@ -1,0 +1,30 @@
+.form{
+	width: 700px;
+	
+	background-image: url('bgimage.png');
+	background-size: cover;
+}
+
+input[type="text"]{
+	background: transparent;
+	border-style: solid;
+	border-color:#72A0C1 ;
+	outline-color: #72A0C1;
+	caret-color: #72A0C1;
+	color: #72A0C1;
+	border-radius: 25px;
+
+}
+
+::placeholder {
+  color: #72A0C1;
+  opacity: 1; 
+}
+
+button{
+	background: transparent;
+	border-style: solid;
+	border-color: #72A0C1;
+	outline-color: #72A0C1;
+	border-radius: 25px;
+}
